@@ -9,7 +9,7 @@ terraform {
     bucket = "funbag-remote-state"
     key    = "expense-dev-backend"
     region = "us-east-1"
-    dynamodb_table = "funbag-locking"
+    # dynamodb_table = "funbag-locking"
   }
 }
 
